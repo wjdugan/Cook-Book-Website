@@ -1,0 +1,97 @@
+
+body {
+    background-color: #333;
+    padding: 50px;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #c2a044;
+    color: white;
+    font-size: 50px;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-inline: 30%;
+    font-size: 20px;
+}
+
+
+section {
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding-inline: 20px;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #c2a044;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 5px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav a:hover {
+    background-color: #c2a044;
+    color: white;
+}
+
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+th {
+    background-color: #ae5231;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid grey;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #c2a044;
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media (max-width: 1000px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+}
